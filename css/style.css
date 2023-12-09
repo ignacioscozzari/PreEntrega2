@@ -1,0 +1,112 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Background*/ 
+body{
+    background-color: #E2E2E2;
+}
+header{
+    background-color: #E2E2E2;
+}
+main{
+    background-color: #E2E2E2;
+}
+/* Párrafos y Títulos */
+p{
+    color: black;
+    font-family:'Open Sans', sans-serif;  
+}
+h2{
+    color: black;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+}
+h5{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+h3{
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+}
+h4{
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+}
+/*Menú*/
+body header nav{
+    text-align: center;
+    position: sticky top 10px;
+}
+body header nav ul li a{
+    font-weight: 540;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+body header nav ul li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+/*Imágenes*/
+.img-logo{
+    height: 150px;
+    width: 150px;
+}
+.img-home{
+    height: 300px;
+    border-radius: 10px;
+}
+#jordan{
+    margin-left: 120px;
+}
+#badbunnycampuswild{
+    margin-left: 50px;
+}
+footer{
+    text-align: center;
+}
+#iniciarSesion{
+    text-align: center;
+}
+.hoodies{
+    height: 400px;
+    width: 400px;
+}
+.imagenesHome{
+    height: 400px;
+    width: 400px;  
+}
+.ultimosLanzamientos{
+    text-align: center;
+    padding: 40px;
+}
+.remeras{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+.pantalones{
+    height: 400px;
+    width: 400px;
+    text-align: center; 
+}
+.sneakers{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
