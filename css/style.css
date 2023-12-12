@@ -6,10 +6,10 @@
 }
 /*Background*/ 
 body{
-    background-color: #E2E2E2;
+    background-color: #393B43;
 }
 main{
-    background-color: #E2E2E2;
+    background-color: #393B43;
 }
 /* Párrafos y Títulos */
 p{
@@ -39,29 +39,29 @@ h4{
     font-family:'Open Sans', sans-serif;
 }
 /*Menú*/
-body header{
-    background-color: black;
+header nav{
+    background-color: #E2E2E2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
- body header img{
-    width: 150px;
+header nav img{
+    width: 200px;
 }
-body header nav ul{
+header nav ul{
     display: flex;
     list-style: none;
-    column-gap: 10px ;
+    column-gap: 50px ;
 }
- body header nav ul li a{
+header nav ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 /*Imágenes*/
 .img-logo{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
 }
 .img-home{
     height: 300px;
