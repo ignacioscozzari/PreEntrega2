@@ -8,9 +8,6 @@
 body{
     background-color: #E2E2E2;
 }
-header{
-    background-color: #E2E2E2;
-}
 main{
     background-color: #E2E2E2;
 }
@@ -42,25 +39,24 @@ h4{
     font-family:'Open Sans', sans-serif;
 }
 /*Menú*/
-body header nav{
-    text-align: center;
-    position: sticky top 10px;
-}
-body header nav ul li a{
-    font-weight: 540;
-    color:white;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
+body header{
     background-color: black;
-    border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-body header nav ul li {
-    list-style-type: none;
-    padding: 10px;
-    display: inline;
+ body header img{
+    width: 150px;
+}
+body header nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 10px ;
+}
+ body header nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 /*Imágenes*/
 .img-logo{
