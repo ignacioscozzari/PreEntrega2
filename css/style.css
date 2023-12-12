@@ -6,10 +6,10 @@
 }
 /*Background*/ 
 body{
-    background-color: #393B43;
+    background-color: white;
 }
 main{
-    background-color: #393B43;
+    background-color: white;
 }
 /* Párrafos y Títulos */
 p{
@@ -42,13 +42,11 @@ h4{
 header nav{
     background-color: #E2E2E2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 0px;
 }
-header nav img{
-    width: 200px;
-}
+
 header nav ul{
     display: flex;
     list-style: none;
@@ -85,11 +83,19 @@ footer{
 }
 .imagenesHome{
     height: 400px;
-    width: 400px;  
+    width: 400px;
+    border-radius: 3px; 
+    border: solid 3px #E2E2E2;
+    box-sizing: border-box;
+
 }
 .ultimosLanzamientos{
-    text-align: center;
-    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px;
+    justify-content: space-evenly;
+    gap: 10PX;
 }
 .remeras{
     height: 400px;
@@ -105,4 +111,12 @@ footer{
     height: 400px;
     width: 400px;
     text-align: center;
+}
+/* Footer */
+footer{
+    background-color: #E2E2E2;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0px;
 }
