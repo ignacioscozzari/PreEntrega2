@@ -24,6 +24,10 @@ header{
    max-width: 160px;
    height: auto;
 }
+.logoblancoelcaucel{
+    max-width: 160px;
+   height: auto;
+}
 .menu{
     display: flex;
 }
